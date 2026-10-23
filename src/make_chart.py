@@ -69,7 +69,7 @@ fig.text(0.07, 0.775, "Vacancies have fallen to their lowest since 2014, outside
 
 fig.text(0.07, 0.085, "Data: Office for National Statistics, series JPC5 and Vacancies and jobs in the UK (October 2026)",
          fontsize=12.5, color=MUTED)
-fig.text(0.07, 0.055, f"Rolling 3-month figures, latest {latest['three_month_period']} {latest['date'].year}. Made in Python by Aniket Bansal",
+fig.text(0.07, 0.055, f"Rolling 3-month figures, latest {latest['three_month_period']} {latest['date'].year}",
          fontsize=12.5, color=MUTED)
 
 out = ROOT / "charts" / "unemployed_per_vacancy.png"

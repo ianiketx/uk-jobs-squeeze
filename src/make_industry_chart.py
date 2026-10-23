@@ -62,7 +62,7 @@ fig.text(0.07, 0.80, "its 2019 level, though it fell sharply in July to Septembe
 
 fig.text(0.07, 0.08, "Data: ONS vacancies by industry (seasonally adjusted), series JP9I to JP9W and AP2Y",
          fontsize=12.5, color=MUTED)
-fig.text(0.07, 0.05, "Nine sectors shown; hospitality, education and public sector not included. Made in Python by Aniket Bansal",
+fig.text(0.07, 0.05, "Nine sectors shown; hospitality, education and public sector not included.",
          fontsize=12.5, color=MUTED)
 
 out = ROOT / "charts" / "vacancies_by_industry.png"
